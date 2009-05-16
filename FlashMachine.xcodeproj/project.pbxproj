@@ -15,65 +15,65 @@
 		1E6B9A320FBF4D5B00266368 /* top-bar-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E6B9A310FBF4D5B00266368 /* top-bar-bg.png */; };
 		1E6B9DF00FBF5D3600266368 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6B9B650FBF5A9A00266368 /* CoreAudio.framework */; };
 		1E6B9DF50FBF5D4E00266368 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6B9DF40FBF5D4E00266368 /* IOKit.framework */; };
-		1E6B9DF90FBF5D6700266368 /* AudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B9AAB0FBF587800266368 /* AudioDevice.cpp */; };
-		1E6B9DFB0FBF5D6700266368 /* AudioDeviceList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B9AAD0FBF587800266368 /* AudioDeviceList.cpp */; };
-		1E6B9DFD0FBF5D6700266368 /* AudioRingBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B9AAF0FBF587800266368 /* AudioRingBuffer.cpp */; };
-		1E6B9DFF0FBF5D6700266368 /* AudioThruEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B9AB10FBF587800266368 /* AudioThruEngine.cpp */; };
 		1E6BA0A90FBF64DE00266368 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6BA0A20FBF649600266368 /* BWToolkitFramework.framework */; };
+		1E6BA1860FBF6E7800266368 /* AudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA11A0FBF6E7800266368 /* AudioDevice.cpp */; };
+		1E6BA1870FBF6E7800266368 /* AudioDeviceList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA11C0FBF6E7800266368 /* AudioDeviceList.cpp */; };
+		1E6BA1880FBF6E7800266368 /* AudioRingBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA11E0FBF6E7800266368 /* AudioRingBuffer.cpp */; };
+		1E6BA1890FBF6E7800266368 /* AudioThruEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E6BA1200FBF6E7800266368 /* AudioThruEngine.cpp */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E6B9B290FBF587800266368 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E6B9ACB0FBF587800266368 /* Soundflowerbed.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 222FE3510EBB6D9900FD13FC;
-			remoteInfo = Soundflowerbed;
-		};
-		1E6B9B300FBF587800266368 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E6B9AD50FBF587800266368 /* Soundflower.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 54D0ADA60A5E329B006380BD;
-			remoteInfo = SoundflowerDriver;
-		};
-		1E6B9B320FBF587800266368 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E6B9AD50FBF587800266368 /* Soundflower.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 789FB3530D62DE4E00C0F5C7;
-			remoteInfo = SoundflowerFPU;
-		};
 		1E6BA0A10FBF649600266368 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E6B9ED60FBF649500266368 /* BWToolkit.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 53DF68FD067E5B5A0090B5B0 /* BWToolkitFramework.framework */;
+			remoteGlobalIDString = 53DF68FD067E5B5A0090B5B0;
 			remoteInfo = BWToolkitFramework;
 		};
 		1E6BA0A30FBF649600266368 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E6B9ED60FBF649500266368 /* BWToolkit.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8D1AC9740486D14A00FE50C9 /* BWToolkit.ibplugin */;
+			remoteGlobalIDString = 8D1AC9740486D14A00FE50C9;
 			remoteInfo = BWToolkit;
 		};
 		1E6BA0A50FBF649600266368 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E6B9ED60FBF649500266368 /* BWToolkit.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B0BCA39C0F88050200F89EB2 /* SplitViewTest.app */;
+			remoteGlobalIDString = B0BCA39C0F88050200F89EB2;
 			remoteInfo = SplitViewTest;
 		};
 		1E6BA0A70FBF64BA00266368 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E6B9ED60FBF649500266368 /* BWToolkit.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0 /* BWToolkitFramework */;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
 			remoteInfo = BWToolkitFramework;
+		};
+		1E6BA1B10FBF6E7900266368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6BA13A0FBF6E7800266368 /* Soundflowerbed.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 222FE3510EBB6D9900FD13FC /* Soundflowerbed.app */;
+			remoteInfo = Soundflowerbed;
+		};
+		1E6BA1B80FBF6E7900266368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6BA1440FBF6E7800266368 /* Soundflower.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 54D0ADA60A5E329B006380BD /* Soundflower.kext */;
+			remoteInfo = SoundflowerDriver;
+		};
+		1E6BA1BA0FBF6E7900266368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6BA1440FBF6E7800266368 /* Soundflower.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 789FB3530D62DE4E00C0F5C7 /* libSoundflowerFPU.a */;
+			remoteInfo = SoundflowerFPU;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -103,82 +103,6 @@
 		1E6B9A120FBF454400266368 /* NSArray+FMExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FMExtensions.h"; sourceTree = "<group>"; };
 		1E6B9A130FBF454400266368 /* NSArray+FMExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FMExtensions.m"; sourceTree = "<group>"; };
 		1E6B9A310FBF4D5B00266368 /* top-bar-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-bar-bg.png"; sourceTree = "<group>"; };
-		1E6B9A8C0FBF587800266368 /* ChangeLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog.txt; sourceTree = "<group>"; };
-		1E6B9A8D0FBF587800266368 /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
-		1E6B9A900FBF587800266368 /* postinstall.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = postinstall.command; sourceTree = "<group>"; };
-		1E6B9A910FBF587800266368 /* postupgrade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = postupgrade; sourceTree = "<group>"; };
-		1E6B9A920FBF587800266368 /* preupgrade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = preupgrade; sourceTree = "<group>"; };
-		1E6B9A930FBF587800266368 /* ReadMe-old.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "ReadMe-old.rtf"; sourceTree = "<group>"; };
-		1E6B9A940FBF587800266368 /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
-		1E6B9A960FBF587800266368 /* 01soundflower-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "01soundflower-contents.xml"; sourceTree = "<group>"; };
-		1E6B9A970FBF587800266368 /* 01soundflower.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 01soundflower.xml; sourceTree = "<group>"; };
-		1E6B9A980FBF587800266368 /* 02soundflowerbed-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "02soundflowerbed-contents.xml"; sourceTree = "<group>"; };
-		1E6B9A990FBF587800266368 /* 02soundflowerbed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 02soundflowerbed.xml; sourceTree = "<group>"; };
-		1E6B9A9A0FBF587800266368 /* 03soundflowerbed-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "03soundflowerbed-contents.xml"; sourceTree = "<group>"; };
-		1E6B9A9B0FBF587800266368 /* 03soundflowerbed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 03soundflowerbed.xml; sourceTree = "<group>"; };
-		1E6B9A9C0FBF587800266368 /* 04readme-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "04readme-contents.xml"; sourceTree = "<group>"; };
-		1E6B9A9D0FBF587800266368 /* 04readme.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 04readme.xml; sourceTree = "<group>"; };
-		1E6B9A9E0FBF587800266368 /* 05license-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "05license-contents.xml"; sourceTree = "<group>"; };
-		1E6B9A9F0FBF587800266368 /* 05license.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 05license.xml; sourceTree = "<group>"; };
-		1E6B9AA00FBF587800266368 /* 06uninstall-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "06uninstall-contents.xml"; sourceTree = "<group>"; };
-		1E6B9AA10FBF587800266368 /* 06uninstall.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 06uninstall.xml; sourceTree = "<group>"; };
-		1E6B9AA20FBF587800266368 /* index.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = index.xml; sourceTree = "<group>"; };
-		1E6B9AA30FBF587800266368 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		1E6B9AA50FBF587800266368 /* 38a98980.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 38a98980.jpg; sourceTree = "<group>"; };
-		1E6B9AA60FBF587800266368 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
-		1E6B9AA70FBF587800266368 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
-		1E6B9AA80FBF587800266368 /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
-		1E6B9AA90FBF587800266368 /* appIcon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = appIcon.psd; sourceTree = "<group>"; };
-		1E6B9AAA0FBF587800266368 /* appIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = appIcon.tiff; sourceTree = "<group>"; };
-		1E6B9AAB0FBF587800266368 /* AudioDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioDevice.cpp; sourceTree = "<group>"; };
-		1E6B9AAC0FBF587800266368 /* AudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDevice.h; sourceTree = "<group>"; };
-		1E6B9AAD0FBF587800266368 /* AudioDeviceList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioDeviceList.cpp; sourceTree = "<group>"; };
-		1E6B9AAE0FBF587800266368 /* AudioDeviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDeviceList.h; sourceTree = "<group>"; };
-		1E6B9AAF0FBF587800266368 /* AudioRingBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioRingBuffer.cpp; sourceTree = "<group>"; };
-		1E6B9AB00FBF587800266368 /* AudioRingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRingBuffer.h; sourceTree = "<group>"; };
-		1E6B9AB10FBF587800266368 /* AudioThruEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioThruEngine.cpp; sourceTree = "<group>"; };
-		1E6B9AB20FBF587800266368 /* AudioThruEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioThruEngine.h; sourceTree = "<group>"; };
-		1E6B9AB30FBF587800266368 /* daisy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = daisy.icns; sourceTree = "<group>"; };
-		1E6B9AB40FBF587800266368 /* daisy.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = daisy.psd; sourceTree = "<group>"; };
-		1E6B9AB50FBF587800266368 /* daisy.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = daisy.tiff; sourceTree = "<group>"; };
-		1E6B9AB70FBF587800266368 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1E6B9AB90FBF587800266368 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		1E6B9ABA0FBF587800266368 /* flower.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = flower.psd; sourceTree = "<group>"; };
-		1E6B9ABB0FBF587800266368 /* flower.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = flower.tiff; sourceTree = "<group>"; };
-		1E6B9ABC0FBF587800266368 /* HelpWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpWindowController.h; sourceTree = "<group>"; };
-		1E6B9ABD0FBF587800266368 /* HelpWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpWindowController.m; sourceTree = "<group>"; };
-		1E6B9ABE0FBF587800266368 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E6B9ABF0FBF587800266368 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1E6B9AC00FBF587800266368 /* menuIcon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = menuIcon.psd; sourceTree = "<group>"; };
-		1E6B9AC10FBF587800266368 /* menuIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = menuIcon.tiff; sourceTree = "<group>"; };
-		1E6B9AC20FBF587800266368 /* menuIcon2.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = menuIcon2.psd; sourceTree = "<group>"; };
-		1E6B9AC30FBF587800266368 /* menuIcon_old.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = menuIcon_old.tiff; sourceTree = "<group>"; };
-		1E6B9AC40FBF587800266368 /* sf16.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = sf16.psd; sourceTree = "<group>"; };
-		1E6B9AC50FBF587800266368 /* sf16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sf16.tiff; sourceTree = "<group>"; };
-		1E6B9AC60FBF587800266368 /* sf2.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = sf2.psd; sourceTree = "<group>"; };
-		1E6B9AC70FBF587800266368 /* sf2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sf2.tiff; sourceTree = "<group>"; };
-		1E6B9AC80FBF587800266368 /* Soundflowerbed README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Soundflowerbed README.rtf"; sourceTree = "<group>"; };
-		1E6B9AC90FBF587800266368 /* Soundflowerbed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soundflowerbed.h; sourceTree = "<group>"; };
-		1E6B9ACA0FBF587800266368 /* Soundflowerbed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soundflowerbed.m; sourceTree = "<group>"; };
-		1E6B9ACB0FBF587800266368 /* Soundflowerbed.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Soundflowerbed.xcodeproj; sourceTree = "<group>"; };
-		1E6B9ACE0FBF587800266368 /* sunflower-icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sunflower-icon.gif"; sourceTree = "<group>"; };
-		1E6B9ACF0FBF587800266368 /* sunflower-icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "sunflower-icon.tiff"; sourceTree = "<group>"; };
-		1E6B9AD00FBF587800266368 /* sunflower.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = sunflower.psd; sourceTree = "<group>"; };
-		1E6B9AD10FBF587800266368 /* sunflower.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sunflower.tiff; sourceTree = "<group>"; };
-		1E6B9AD30FBF587800266368 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E6B9AD40FBF587800266368 /* Soundflower.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Soundflower.xcconfig; sourceTree = "<group>"; };
-		1E6B9AD50FBF587800266368 /* Soundflower.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Soundflower.xcodeproj; sourceTree = "<group>"; };
-		1E6B9AD80FBF587800266368 /* SoundflowerClip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundflowerClip.cpp; sourceTree = "<group>"; };
-		1E6B9AD90FBF587800266368 /* SoundflowerDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundflowerDevice.cpp; sourceTree = "<group>"; };
-		1E6B9ADA0FBF587800266368 /* SoundflowerDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundflowerDevice.h; sourceTree = "<group>"; };
-		1E6B9ADB0FBF587800266368 /* SoundflowerEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundflowerEngine.cpp; sourceTree = "<group>"; };
-		1E6B9ADC0FBF587800266368 /* SoundflowerEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundflowerEngine.h; sourceTree = "<group>"; };
-		1E6B9ADD0FBF587800266368 /* SoundflowerFPU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundflowerFPU.cpp; sourceTree = "<group>"; };
-		1E6B9ADF0FBF587800266368 /* build.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = build.rb; sourceTree = "<group>"; };
-		1E6B9AE00FBF587800266368 /* installer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = installer.rb; sourceTree = "<group>"; };
-		1E6B9AE10FBF587800266368 /* load.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = load.rb; sourceTree = "<group>"; };
-		1E6B9AE20FBF587800266368 /* Uninstall Soundflower.app */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "Uninstall Soundflower.app"; sourceTree = "<group>"; };
-		1E6B9AE30FBF587800266368 /* Uninstall Soundflower.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = "Uninstall Soundflower.scpt"; sourceTree = "<group>"; };
 		1E6B9B650FBF5A9A00266368 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		1E6B9DF40FBF5D4E00266368 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		1E6B9E690FBF649500266368 /* ButtonBarPullDownArrow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ButtonBarPullDownArrow.pdf; sourceTree = "<group>"; };
@@ -477,6 +401,107 @@
 		1E6B9F920FBF649500266368 /* TransparentSliderTrackRight.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TransparentSliderTrackRight.tiff; sourceTree = "<group>"; };
 		1E6B9F930FBF649500266368 /* TransparentSliderTriangleThumbN.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TransparentSliderTriangleThumbN.tiff; sourceTree = "<group>"; };
 		1E6B9F940FBF649500266368 /* TransparentSliderTriangleThumbP.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TransparentSliderTriangleThumbP.tiff; sourceTree = "<group>"; };
+		1E6BA0D30FBF6E7800266368 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = "<group>"; };
+		1E6BA0D40FBF6E7800266368 /* description */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description; sourceTree = "<group>"; };
+		1E6BA0D50FBF6E7800266368 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		1E6BA0D70FBF6E7800266368 /* applypatch-msg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "applypatch-msg"; sourceTree = "<group>"; };
+		1E6BA0D80FBF6E7800266368 /* commit-msg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "commit-msg"; sourceTree = "<group>"; };
+		1E6BA0D90FBF6E7800266368 /* post-commit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-commit"; sourceTree = "<group>"; };
+		1E6BA0DA0FBF6E7800266368 /* post-receive */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-receive"; sourceTree = "<group>"; };
+		1E6BA0DB0FBF6E7800266368 /* post-update */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "post-update"; sourceTree = "<group>"; };
+		1E6BA0DC0FBF6E7800266368 /* pre-applypatch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-applypatch"; sourceTree = "<group>"; };
+		1E6BA0DD0FBF6E7800266368 /* pre-commit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-commit"; sourceTree = "<group>"; };
+		1E6BA0DE0FBF6E7800266368 /* pre-rebase */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-rebase"; sourceTree = "<group>"; };
+		1E6BA0DF0FBF6E7800266368 /* prepare-commit-msg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "prepare-commit-msg"; sourceTree = "<group>"; };
+		1E6BA0E00FBF6E7800266368 /* update */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update; sourceTree = "<group>"; };
+		1E6BA0E10FBF6E7800266368 /* index */ = {isa = PBXFileReference; lastKnownFileType = file; path = index; sourceTree = "<group>"; };
+		1E6BA0E30FBF6E7800266368 /* exclude */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exclude; sourceTree = "<group>"; };
+		1E6BA0E40FBF6E7800266368 /* refs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = refs; sourceTree = "<group>"; };
+		1E6BA0E80FBF6E7800266368 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		1E6BA0EA0FBF6E7800266368 /* trunk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trunk; sourceTree = "<group>"; };
+		1E6BA0ED0FBF6E7800266368 /* packs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = packs; sourceTree = "<group>"; };
+		1E6BA0EF0FBF6E7800266368 /* pack-30fc2e843f5481f146d676c60e354f719322499a.idx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-30fc2e843f5481f146d676c60e354f719322499a.idx"; sourceTree = "<group>"; };
+		1E6BA0F00FBF6E7800266368 /* pack-30fc2e843f5481f146d676c60e354f719322499a.pack */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pack-30fc2e843f5481f146d676c60e354f719322499a.pack"; sourceTree = "<group>"; };
+		1E6BA0F10FBF6E7800266368 /* packed-refs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "packed-refs"; sourceTree = "<group>"; };
+		1E6BA0F70FBF6E7800266368 /* .metadata */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .metadata; sourceTree = "<group>"; };
+		1E6BA0F90FBF6E7800266368 /* .rev_map.0051ed44-974d-0410-95fd-975f363cc5de */ = {isa = PBXFileReference; lastKnownFileType = file; path = ".rev_map.0051ed44-974d-0410-95fd-975f363cc5de"; sourceTree = "<group>"; };
+		1E6BA0FA0FBF6E7800266368 /* unhandled.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unhandled.log; sourceTree = "<group>"; };
+		1E6BA0FB0FBF6E7800266368 /* ChangeLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog.txt; sourceTree = "<group>"; };
+		1E6BA0FC0FBF6E7800266368 /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
+		1E6BA0FF0FBF6E7800266368 /* postinstall.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = postinstall.command; sourceTree = "<group>"; };
+		1E6BA1000FBF6E7800266368 /* postupgrade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = postupgrade; sourceTree = "<group>"; };
+		1E6BA1010FBF6E7800266368 /* preupgrade */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = preupgrade; sourceTree = "<group>"; };
+		1E6BA1020FBF6E7800266368 /* ReadMe-old.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "ReadMe-old.rtf"; sourceTree = "<group>"; };
+		1E6BA1030FBF6E7800266368 /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		1E6BA1050FBF6E7800266368 /* 01soundflower-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "01soundflower-contents.xml"; sourceTree = "<group>"; };
+		1E6BA1060FBF6E7800266368 /* 01soundflower.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 01soundflower.xml; sourceTree = "<group>"; };
+		1E6BA1070FBF6E7800266368 /* 02soundflowerbed-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "02soundflowerbed-contents.xml"; sourceTree = "<group>"; };
+		1E6BA1080FBF6E7800266368 /* 02soundflowerbed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 02soundflowerbed.xml; sourceTree = "<group>"; };
+		1E6BA1090FBF6E7800266368 /* 03soundflowerbed-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "03soundflowerbed-contents.xml"; sourceTree = "<group>"; };
+		1E6BA10A0FBF6E7800266368 /* 03soundflowerbed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 03soundflowerbed.xml; sourceTree = "<group>"; };
+		1E6BA10B0FBF6E7800266368 /* 04readme-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "04readme-contents.xml"; sourceTree = "<group>"; };
+		1E6BA10C0FBF6E7800266368 /* 04readme.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 04readme.xml; sourceTree = "<group>"; };
+		1E6BA10D0FBF6E7800266368 /* 05license-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "05license-contents.xml"; sourceTree = "<group>"; };
+		1E6BA10E0FBF6E7800266368 /* 05license.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 05license.xml; sourceTree = "<group>"; };
+		1E6BA10F0FBF6E7800266368 /* 06uninstall-contents.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "06uninstall-contents.xml"; sourceTree = "<group>"; };
+		1E6BA1100FBF6E7800266368 /* 06uninstall.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 06uninstall.xml; sourceTree = "<group>"; };
+		1E6BA1110FBF6E7800266368 /* index.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = index.xml; sourceTree = "<group>"; };
+		1E6BA1120FBF6E7800266368 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		1E6BA1140FBF6E7800266368 /* 38a98980.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 38a98980.jpg; sourceTree = "<group>"; };
+		1E6BA1150FBF6E7800266368 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		1E6BA1160FBF6E7800266368 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		1E6BA1170FBF6E7800266368 /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
+		1E6BA1180FBF6E7800266368 /* appIcon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = appIcon.psd; sourceTree = "<group>"; };
+		1E6BA1190FBF6E7800266368 /* appIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = appIcon.tiff; sourceTree = "<group>"; };
+		1E6BA11A0FBF6E7800266368 /* AudioDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioDevice.cpp; sourceTree = "<group>"; };
+		1E6BA11B0FBF6E7800266368 /* AudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDevice.h; sourceTree = "<group>"; };
+		1E6BA11C0FBF6E7800266368 /* AudioDeviceList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioDeviceList.cpp; sourceTree = "<group>"; };
+		1E6BA11D0FBF6E7800266368 /* AudioDeviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDeviceList.h; sourceTree = "<group>"; };
+		1E6BA11E0FBF6E7800266368 /* AudioRingBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioRingBuffer.cpp; sourceTree = "<group>"; };
+		1E6BA11F0FBF6E7800266368 /* AudioRingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRingBuffer.h; sourceTree = "<group>"; };
+		1E6BA1200FBF6E7800266368 /* AudioThruEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioThruEngine.cpp; sourceTree = "<group>"; };
+		1E6BA1210FBF6E7800266368 /* AudioThruEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioThruEngine.h; sourceTree = "<group>"; };
+		1E6BA1220FBF6E7800266368 /* daisy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = daisy.icns; sourceTree = "<group>"; };
+		1E6BA1230FBF6E7800266368 /* daisy.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = daisy.psd; sourceTree = "<group>"; };
+		1E6BA1240FBF6E7800266368 /* daisy.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = daisy.tiff; sourceTree = "<group>"; };
+		1E6BA1260FBF6E7800266368 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E6BA1280FBF6E7800266368 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		1E6BA1290FBF6E7800266368 /* flower.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = flower.psd; sourceTree = "<group>"; };
+		1E6BA12A0FBF6E7800266368 /* flower.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = flower.tiff; sourceTree = "<group>"; };
+		1E6BA12B0FBF6E7800266368 /* HelpWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpWindowController.h; sourceTree = "<group>"; };
+		1E6BA12C0FBF6E7800266368 /* HelpWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpWindowController.m; sourceTree = "<group>"; };
+		1E6BA12D0FBF6E7800266368 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6BA12E0FBF6E7800266368 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E6BA12F0FBF6E7800266368 /* menuIcon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = menuIcon.psd; sourceTree = "<group>"; };
+		1E6BA1300FBF6E7800266368 /* menuIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = menuIcon.tiff; sourceTree = "<group>"; };
+		1E6BA1310FBF6E7800266368 /* menuIcon2.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = menuIcon2.psd; sourceTree = "<group>"; };
+		1E6BA1320FBF6E7800266368 /* menuIcon_old.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = menuIcon_old.tiff; sourceTree = "<group>"; };
+		1E6BA1330FBF6E7800266368 /* sf16.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = sf16.psd; sourceTree = "<group>"; };
+		1E6BA1340FBF6E7800266368 /* sf16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sf16.tiff; sourceTree = "<group>"; };
+		1E6BA1350FBF6E7800266368 /* sf2.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = sf2.psd; sourceTree = "<group>"; };
+		1E6BA1360FBF6E7800266368 /* sf2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sf2.tiff; sourceTree = "<group>"; };
+		1E6BA1370FBF6E7800266368 /* Soundflowerbed README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Soundflowerbed README.rtf"; sourceTree = "<group>"; };
+		1E6BA1380FBF6E7800266368 /* Soundflowerbed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soundflowerbed.h; sourceTree = "<group>"; };
+		1E6BA1390FBF6E7800266368 /* Soundflowerbed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soundflowerbed.m; sourceTree = "<group>"; };
+		1E6BA13A0FBF6E7800266368 /* Soundflowerbed.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Soundflowerbed.xcodeproj; sourceTree = "<group>"; };
+		1E6BA13D0FBF6E7800266368 /* sunflower-icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sunflower-icon.gif"; sourceTree = "<group>"; };
+		1E6BA13E0FBF6E7800266368 /* sunflower-icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "sunflower-icon.tiff"; sourceTree = "<group>"; };
+		1E6BA13F0FBF6E7800266368 /* sunflower.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = sunflower.psd; sourceTree = "<group>"; };
+		1E6BA1400FBF6E7800266368 /* sunflower.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sunflower.tiff; sourceTree = "<group>"; };
+		1E6BA1420FBF6E7800266368 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6BA1430FBF6E7800266368 /* Soundflower.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Soundflower.xcconfig; sourceTree = "<group>"; };
+		1E6BA1440FBF6E7800266368 /* Soundflower.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Soundflower.xcodeproj; sourceTree = "<group>"; };
+		1E6BA1470FBF6E7800266368 /* SoundflowerClip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundflowerClip.cpp; sourceTree = "<group>"; };
+		1E6BA1480FBF6E7800266368 /* SoundflowerDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundflowerDevice.cpp; sourceTree = "<group>"; };
+		1E6BA1490FBF6E7800266368 /* SoundflowerDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundflowerDevice.h; sourceTree = "<group>"; };
+		1E6BA14A0FBF6E7800266368 /* SoundflowerEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundflowerEngine.cpp; sourceTree = "<group>"; };
+		1E6BA14B0FBF6E7800266368 /* SoundflowerEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundflowerEngine.h; sourceTree = "<group>"; };
+		1E6BA14C0FBF6E7800266368 /* SoundflowerFPU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundflowerFPU.cpp; sourceTree = "<group>"; };
+		1E6BA14E0FBF6E7800266368 /* build.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = build.rb; sourceTree = "<group>"; };
+		1E6BA14F0FBF6E7800266368 /* installer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = installer.rb; sourceTree = "<group>"; };
+		1E6BA1500FBF6E7800266368 /* load.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = load.rb; sourceTree = "<group>"; };
+		1E6BA1510FBF6E7800266368 /* Uninstall Soundflower.app */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "Uninstall Soundflower.app"; sourceTree = "<group>"; };
+		1E6BA1520FBF6E7800266368 /* Uninstall Soundflower.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = "Uninstall Soundflower.scpt"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -504,7 +529,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1E6B9A8B0FBF587800266368 /* soundflower */,
 				1E6B99360FBF3BC900266368 /* AppController.h */,
 				1E6B99370FBF3BC900266368 /* AppController.m */,
 				1E6B99C70FBF3F0A00266368 /* FMFlashGame.h */,
@@ -541,157 +565,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E6B9A8B0FBF587800266368 /* soundflower */ = {
-			isa = PBXGroup;
-			children = (
-				1E6B9A8C0FBF587800266368 /* ChangeLog.txt */,
-				1E6B9A8D0FBF587800266368 /* COPYING.txt */,
-				1E6B9A8E0FBF587800266368 /* Installer */,
-				1E6B9AA30FBF587800266368 /* ReadMe.txt */,
-				1E6B9AA40FBF587800266368 /* SoundflowerBed */,
-				1E6B9AD20FBF587800266368 /* Source */,
-				1E6B9ADE0FBF587800266368 /* Tools */,
-			);
-			path = soundflower;
-			sourceTree = "<group>";
-		};
-		1E6B9A8E0FBF587800266368 /* Installer */ = {
-			isa = PBXGroup;
-			children = (
-				1E6B9A8F0FBF587800266368 /* Resources */,
-				1E6B9A950FBF587800266368 /* Soundflower.pmdoc */,
-			);
-			path = Installer;
-			sourceTree = "<group>";
-		};
-		1E6B9A8F0FBF587800266368 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1E6B9A900FBF587800266368 /* postinstall.command */,
-				1E6B9A910FBF587800266368 /* postupgrade */,
-				1E6B9A920FBF587800266368 /* preupgrade */,
-				1E6B9A930FBF587800266368 /* ReadMe-old.rtf */,
-				1E6B9A940FBF587800266368 /* ReadMe.rtf */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		1E6B9A950FBF587800266368 /* Soundflower.pmdoc */ = {
-			isa = PBXGroup;
-			children = (
-				1E6B9A960FBF587800266368 /* 01soundflower-contents.xml */,
-				1E6B9A970FBF587800266368 /* 01soundflower.xml */,
-				1E6B9A980FBF587800266368 /* 02soundflowerbed-contents.xml */,
-				1E6B9A990FBF587800266368 /* 02soundflowerbed.xml */,
-				1E6B9A9A0FBF587800266368 /* 03soundflowerbed-contents.xml */,
-				1E6B9A9B0FBF587800266368 /* 03soundflowerbed.xml */,
-				1E6B9A9C0FBF587800266368 /* 04readme-contents.xml */,
-				1E6B9A9D0FBF587800266368 /* 04readme.xml */,
-				1E6B9A9E0FBF587800266368 /* 05license-contents.xml */,
-				1E6B9A9F0FBF587800266368 /* 05license.xml */,
-				1E6B9AA00FBF587800266368 /* 06uninstall-contents.xml */,
-				1E6B9AA10FBF587800266368 /* 06uninstall.xml */,
-				1E6B9AA20FBF587800266368 /* index.xml */,
-			);
-			path = Soundflower.pmdoc;
-			sourceTree = "<group>";
-		};
-		1E6B9AA40FBF587800266368 /* SoundflowerBed */ = {
-			isa = PBXGroup;
-			children = (
-				1E6B9AA50FBF587800266368 /* 38a98980.jpg */,
-				1E6B9AA60FBF587800266368 /* AppController.h */,
-				1E6B9AA70FBF587800266368 /* AppController.mm */,
-				1E6B9AA80FBF587800266368 /* appIcon.icns */,
-				1E6B9AA90FBF587800266368 /* appIcon.psd */,
-				1E6B9AAA0FBF587800266368 /* appIcon.tiff */,
-				1E6B9AAB0FBF587800266368 /* AudioDevice.cpp */,
-				1E6B9AAC0FBF587800266368 /* AudioDevice.h */,
-				1E6B9AAD0FBF587800266368 /* AudioDeviceList.cpp */,
-				1E6B9AAE0FBF587800266368 /* AudioDeviceList.h */,
-				1E6B9AAF0FBF587800266368 /* AudioRingBuffer.cpp */,
-				1E6B9AB00FBF587800266368 /* AudioRingBuffer.h */,
-				1E6B9AB10FBF587800266368 /* AudioThruEngine.cpp */,
-				1E6B9AB20FBF587800266368 /* AudioThruEngine.h */,
-				1E6B9AB30FBF587800266368 /* daisy.icns */,
-				1E6B9AB40FBF587800266368 /* daisy.psd */,
-				1E6B9AB50FBF587800266368 /* daisy.tiff */,
-				1E6B9AB60FBF587800266368 /* InfoPlist.strings */,
-				1E6B9AB80FBF587800266368 /* MainMenu.nib */,
-				1E6B9ABA0FBF587800266368 /* flower.psd */,
-				1E6B9ABB0FBF587800266368 /* flower.tiff */,
-				1E6B9ABC0FBF587800266368 /* HelpWindowController.h */,
-				1E6B9ABD0FBF587800266368 /* HelpWindowController.m */,
-				1E6B9ABE0FBF587800266368 /* Info.plist */,
-				1E6B9ABF0FBF587800266368 /* main.m */,
-				1E6B9AC00FBF587800266368 /* menuIcon.psd */,
-				1E6B9AC10FBF587800266368 /* menuIcon.tiff */,
-				1E6B9AC20FBF587800266368 /* menuIcon2.psd */,
-				1E6B9AC30FBF587800266368 /* menuIcon_old.tiff */,
-				1E6B9AC40FBF587800266368 /* sf16.psd */,
-				1E6B9AC50FBF587800266368 /* sf16.tiff */,
-				1E6B9AC60FBF587800266368 /* sf2.psd */,
-				1E6B9AC70FBF587800266368 /* sf2.tiff */,
-				1E6B9AC80FBF587800266368 /* Soundflowerbed README.rtf */,
-				1E6B9AC90FBF587800266368 /* Soundflowerbed.h */,
-				1E6B9ACA0FBF587800266368 /* Soundflowerbed.m */,
-				1E6B9ACB0FBF587800266368 /* Soundflowerbed.xcodeproj */,
-				1E6B9ACE0FBF587800266368 /* sunflower-icon.gif */,
-				1E6B9ACF0FBF587800266368 /* sunflower-icon.tiff */,
-				1E6B9AD00FBF587800266368 /* sunflower.psd */,
-				1E6B9AD10FBF587800266368 /* sunflower.tiff */,
-			);
-			path = SoundflowerBed;
-			sourceTree = "<group>";
-		};
-		1E6B9ACC0FBF587800266368 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1E6B9B2A0FBF587800266368 /* Soundflowerbed.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1E6B9AD20FBF587800266368 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				1E6B9AD30FBF587800266368 /* Info.plist */,
-				1E6B9AD40FBF587800266368 /* Soundflower.xcconfig */,
-				1E6B9AD50FBF587800266368 /* Soundflower.xcodeproj */,
-				1E6B9AD80FBF587800266368 /* SoundflowerClip.cpp */,
-				1E6B9AD90FBF587800266368 /* SoundflowerDevice.cpp */,
-				1E6B9ADA0FBF587800266368 /* SoundflowerDevice.h */,
-				1E6B9ADB0FBF587800266368 /* SoundflowerEngine.cpp */,
-				1E6B9ADC0FBF587800266368 /* SoundflowerEngine.h */,
-				1E6B9ADD0FBF587800266368 /* SoundflowerFPU.cpp */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		1E6B9AD60FBF587800266368 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1E6B9B310FBF587800266368 /* Soundflower.kext */,
-				1E6B9B330FBF587800266368 /* libSoundflowerFPU.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1E6B9ADE0FBF587800266368 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				1E6B9ADF0FBF587800266368 /* build.rb */,
-				1E6B9AE00FBF587800266368 /* installer.rb */,
-				1E6B9AE10FBF587800266368 /* load.rb */,
-				1E6B9AE20FBF587800266368 /* Uninstall Soundflower.app */,
-				1E6B9AE30FBF587800266368 /* Uninstall Soundflower.scpt */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
 		1E6B9E3C0FBF649500266368 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				1E6BA0D10FBF6E7800266368 /* Soundflower */,
 				1E6B9E3D0FBF649500266368 /* BWToolkit */,
 			);
 			path = Dependencies;
@@ -1010,6 +887,307 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1E6BA0D10FBF6E7800266368 /* Soundflower */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0D20FBF6E7800266368 /* .git */,
+				1E6BA0FB0FBF6E7800266368 /* ChangeLog.txt */,
+				1E6BA0FC0FBF6E7800266368 /* COPYING.txt */,
+				1E6BA0FD0FBF6E7800266368 /* Installer */,
+				1E6BA1120FBF6E7800266368 /* ReadMe.txt */,
+				1E6BA1130FBF6E7800266368 /* SoundflowerBed */,
+				1E6BA1410FBF6E7800266368 /* Source */,
+				1E6BA14D0FBF6E7800266368 /* Tools */,
+			);
+			path = Soundflower;
+			sourceTree = "<group>";
+		};
+		1E6BA0D20FBF6E7800266368 /* .git */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0D30FBF6E7800266368 /* config */,
+				1E6BA0D40FBF6E7800266368 /* description */,
+				1E6BA0D50FBF6E7800266368 /* HEAD */,
+				1E6BA0D60FBF6E7800266368 /* hooks */,
+				1E6BA0E10FBF6E7800266368 /* index */,
+				1E6BA0E20FBF6E7800266368 /* info */,
+				1E6BA0E50FBF6E7800266368 /* logs */,
+				1E6BA0EB0FBF6E7800266368 /* objects */,
+				1E6BA0F10FBF6E7800266368 /* packed-refs */,
+				1E6BA0F20FBF6E7800266368 /* refs */,
+				1E6BA0F60FBF6E7800266368 /* svn */,
+			);
+			path = .git;
+			sourceTree = "<group>";
+		};
+		1E6BA0D60FBF6E7800266368 /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0D70FBF6E7800266368 /* applypatch-msg */,
+				1E6BA0D80FBF6E7800266368 /* commit-msg */,
+				1E6BA0D90FBF6E7800266368 /* post-commit */,
+				1E6BA0DA0FBF6E7800266368 /* post-receive */,
+				1E6BA0DB0FBF6E7800266368 /* post-update */,
+				1E6BA0DC0FBF6E7800266368 /* pre-applypatch */,
+				1E6BA0DD0FBF6E7800266368 /* pre-commit */,
+				1E6BA0DE0FBF6E7800266368 /* pre-rebase */,
+				1E6BA0DF0FBF6E7800266368 /* prepare-commit-msg */,
+				1E6BA0E00FBF6E7800266368 /* update */,
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		1E6BA0E20FBF6E7800266368 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0E30FBF6E7800266368 /* exclude */,
+				1E6BA0E40FBF6E7800266368 /* refs */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		1E6BA0E50FBF6E7800266368 /* logs */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0E60FBF6E7800266368 /* refs */,
+			);
+			path = logs;
+			sourceTree = "<group>";
+		};
+		1E6BA0E60FBF6E7800266368 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0E70FBF6E7800266368 /* heads */,
+				1E6BA0E90FBF6E7800266368 /* remotes */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		1E6BA0E70FBF6E7800266368 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0E80FBF6E7800266368 /* master */,
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		1E6BA0E90FBF6E7800266368 /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0EA0FBF6E7800266368 /* trunk */,
+			);
+			path = remotes;
+			sourceTree = "<group>";
+		};
+		1E6BA0EB0FBF6E7800266368 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0EC0FBF6E7800266368 /* info */,
+				1E6BA0EE0FBF6E7800266368 /* pack */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		1E6BA0EC0FBF6E7800266368 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0ED0FBF6E7800266368 /* packs */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		1E6BA0EE0FBF6E7800266368 /* pack */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0EF0FBF6E7800266368 /* pack-30fc2e843f5481f146d676c60e354f719322499a.idx */,
+				1E6BA0F00FBF6E7800266368 /* pack-30fc2e843f5481f146d676c60e354f719322499a.pack */,
+			);
+			path = pack;
+			sourceTree = "<group>";
+		};
+		1E6BA0F20FBF6E7800266368 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0F30FBF6E7800266368 /* heads */,
+				1E6BA0F40FBF6E7800266368 /* remotes */,
+				1E6BA0F50FBF6E7800266368 /* tags */,
+			);
+			path = refs;
+			sourceTree = "<group>";
+		};
+		1E6BA0F30FBF6E7800266368 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = heads;
+			sourceTree = "<group>";
+		};
+		1E6BA0F40FBF6E7800266368 /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = remotes;
+			sourceTree = "<group>";
+		};
+		1E6BA0F50FBF6E7800266368 /* tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tags;
+			sourceTree = "<group>";
+		};
+		1E6BA0F60FBF6E7800266368 /* svn */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0F70FBF6E7800266368 /* .metadata */,
+				1E6BA0F80FBF6E7800266368 /* trunk */,
+			);
+			path = svn;
+			sourceTree = "<group>";
+		};
+		1E6BA0F80FBF6E7800266368 /* trunk */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0F90FBF6E7800266368 /* .rev_map.0051ed44-974d-0410-95fd-975f363cc5de */,
+				1E6BA0FA0FBF6E7800266368 /* unhandled.log */,
+			);
+			path = trunk;
+			sourceTree = "<group>";
+		};
+		1E6BA0FD0FBF6E7800266368 /* Installer */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0FE0FBF6E7800266368 /* Resources */,
+				1E6BA1040FBF6E7800266368 /* Soundflower.pmdoc */,
+			);
+			path = Installer;
+			sourceTree = "<group>";
+		};
+		1E6BA0FE0FBF6E7800266368 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA0FF0FBF6E7800266368 /* postinstall.command */,
+				1E6BA1000FBF6E7800266368 /* postupgrade */,
+				1E6BA1010FBF6E7800266368 /* preupgrade */,
+				1E6BA1020FBF6E7800266368 /* ReadMe-old.rtf */,
+				1E6BA1030FBF6E7800266368 /* ReadMe.rtf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1E6BA1040FBF6E7800266368 /* Soundflower.pmdoc */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA1050FBF6E7800266368 /* 01soundflower-contents.xml */,
+				1E6BA1060FBF6E7800266368 /* 01soundflower.xml */,
+				1E6BA1070FBF6E7800266368 /* 02soundflowerbed-contents.xml */,
+				1E6BA1080FBF6E7800266368 /* 02soundflowerbed.xml */,
+				1E6BA1090FBF6E7800266368 /* 03soundflowerbed-contents.xml */,
+				1E6BA10A0FBF6E7800266368 /* 03soundflowerbed.xml */,
+				1E6BA10B0FBF6E7800266368 /* 04readme-contents.xml */,
+				1E6BA10C0FBF6E7800266368 /* 04readme.xml */,
+				1E6BA10D0FBF6E7800266368 /* 05license-contents.xml */,
+				1E6BA10E0FBF6E7800266368 /* 05license.xml */,
+				1E6BA10F0FBF6E7800266368 /* 06uninstall-contents.xml */,
+				1E6BA1100FBF6E7800266368 /* 06uninstall.xml */,
+				1E6BA1110FBF6E7800266368 /* index.xml */,
+			);
+			path = Soundflower.pmdoc;
+			sourceTree = "<group>";
+		};
+		1E6BA1130FBF6E7800266368 /* SoundflowerBed */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA1140FBF6E7800266368 /* 38a98980.jpg */,
+				1E6BA1150FBF6E7800266368 /* AppController.h */,
+				1E6BA1160FBF6E7800266368 /* AppController.mm */,
+				1E6BA1170FBF6E7800266368 /* appIcon.icns */,
+				1E6BA1180FBF6E7800266368 /* appIcon.psd */,
+				1E6BA1190FBF6E7800266368 /* appIcon.tiff */,
+				1E6BA11A0FBF6E7800266368 /* AudioDevice.cpp */,
+				1E6BA11B0FBF6E7800266368 /* AudioDevice.h */,
+				1E6BA11C0FBF6E7800266368 /* AudioDeviceList.cpp */,
+				1E6BA11D0FBF6E7800266368 /* AudioDeviceList.h */,
+				1E6BA11E0FBF6E7800266368 /* AudioRingBuffer.cpp */,
+				1E6BA11F0FBF6E7800266368 /* AudioRingBuffer.h */,
+				1E6BA1200FBF6E7800266368 /* AudioThruEngine.cpp */,
+				1E6BA1210FBF6E7800266368 /* AudioThruEngine.h */,
+				1E6BA1220FBF6E7800266368 /* daisy.icns */,
+				1E6BA1230FBF6E7800266368 /* daisy.psd */,
+				1E6BA1240FBF6E7800266368 /* daisy.tiff */,
+				1E6BA1250FBF6E7800266368 /* InfoPlist.strings */,
+				1E6BA1270FBF6E7800266368 /* MainMenu.nib */,
+				1E6BA1290FBF6E7800266368 /* flower.psd */,
+				1E6BA12A0FBF6E7800266368 /* flower.tiff */,
+				1E6BA12B0FBF6E7800266368 /* HelpWindowController.h */,
+				1E6BA12C0FBF6E7800266368 /* HelpWindowController.m */,
+				1E6BA12D0FBF6E7800266368 /* Info.plist */,
+				1E6BA12E0FBF6E7800266368 /* main.m */,
+				1E6BA12F0FBF6E7800266368 /* menuIcon.psd */,
+				1E6BA1300FBF6E7800266368 /* menuIcon.tiff */,
+				1E6BA1310FBF6E7800266368 /* menuIcon2.psd */,
+				1E6BA1320FBF6E7800266368 /* menuIcon_old.tiff */,
+				1E6BA1330FBF6E7800266368 /* sf16.psd */,
+				1E6BA1340FBF6E7800266368 /* sf16.tiff */,
+				1E6BA1350FBF6E7800266368 /* sf2.psd */,
+				1E6BA1360FBF6E7800266368 /* sf2.tiff */,
+				1E6BA1370FBF6E7800266368 /* Soundflowerbed README.rtf */,
+				1E6BA1380FBF6E7800266368 /* Soundflowerbed.h */,
+				1E6BA1390FBF6E7800266368 /* Soundflowerbed.m */,
+				1E6BA13A0FBF6E7800266368 /* Soundflowerbed.xcodeproj */,
+				1E6BA13D0FBF6E7800266368 /* sunflower-icon.gif */,
+				1E6BA13E0FBF6E7800266368 /* sunflower-icon.tiff */,
+				1E6BA13F0FBF6E7800266368 /* sunflower.psd */,
+				1E6BA1400FBF6E7800266368 /* sunflower.tiff */,
+			);
+			path = SoundflowerBed;
+			sourceTree = "<group>";
+		};
+		1E6BA13B0FBF6E7800266368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA1B20FBF6E7900266368 /* Soundflowerbed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6BA1410FBF6E7800266368 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA1420FBF6E7800266368 /* Info.plist */,
+				1E6BA1430FBF6E7800266368 /* Soundflower.xcconfig */,
+				1E6BA1440FBF6E7800266368 /* Soundflower.xcodeproj */,
+				1E6BA1470FBF6E7800266368 /* SoundflowerClip.cpp */,
+				1E6BA1480FBF6E7800266368 /* SoundflowerDevice.cpp */,
+				1E6BA1490FBF6E7800266368 /* SoundflowerDevice.h */,
+				1E6BA14A0FBF6E7800266368 /* SoundflowerEngine.cpp */,
+				1E6BA14B0FBF6E7800266368 /* SoundflowerEngine.h */,
+				1E6BA14C0FBF6E7800266368 /* SoundflowerFPU.cpp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1E6BA1450FBF6E7800266368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA1B90FBF6E7900266368 /* Soundflower.kext */,
+				1E6BA1BB0FBF6E7900266368 /* libSoundflowerFPU.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6BA14D0FBF6E7800266368 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1E6BA14E0FBF6E7800266368 /* build.rb */,
+				1E6BA14F0FBF6E7800266368 /* installer.rb */,
+				1E6BA1500FBF6E7800266368 /* load.rb */,
+				1E6BA1510FBF6E7800266368 /* Uninstall Soundflower.app */,
+				1E6BA1520FBF6E7800266368 /* Uninstall Soundflower.scpt */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		29B97314FDCFA39411CA2CEA /* FlashMachine */ = {
 			isa = PBXGroup;
 			children = (
@@ -1094,12 +1272,12 @@
 					ProjectRef = 1E6B9ED60FBF649500266368 /* BWToolkit.xcodeproj */;
 				},
 				{
-					ProductGroup = 1E6B9AD60FBF587800266368 /* Products */;
-					ProjectRef = 1E6B9AD50FBF587800266368 /* Soundflower.xcodeproj */;
+					ProductGroup = 1E6BA1450FBF6E7800266368 /* Products */;
+					ProjectRef = 1E6BA1440FBF6E7800266368 /* Soundflower.xcodeproj */;
 				},
 				{
-					ProductGroup = 1E6B9ACC0FBF587800266368 /* Products */;
-					ProjectRef = 1E6B9ACB0FBF587800266368 /* Soundflowerbed.xcodeproj */;
+					ProductGroup = 1E6BA13B0FBF6E7800266368 /* Products */;
+					ProjectRef = 1E6BA13A0FBF6E7800266368 /* Soundflowerbed.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1110,27 +1288,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		1E6B9B2A0FBF587800266368 /* Soundflowerbed.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Soundflowerbed.app;
-			remoteRef = 1E6B9B290FBF587800266368 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1E6B9B310FBF587800266368 /* Soundflower.kext */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Soundflower.kext;
-			remoteRef = 1E6B9B300FBF587800266368 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1E6B9B330FBF587800266368 /* libSoundflowerFPU.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSoundflowerFPU.a;
-			remoteRef = 1E6B9B320FBF587800266368 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		1E6BA0A20FBF649600266368 /* BWToolkitFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -1150,6 +1307,27 @@
 			fileType = wrapper.application;
 			path = SplitViewTest.app;
 			remoteRef = 1E6BA0A50FBF649600266368 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1E6BA1B20FBF6E7900266368 /* Soundflowerbed.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Soundflowerbed.app;
+			remoteRef = 1E6BA1B10FBF6E7900266368 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1E6BA1B90FBF6E7900266368 /* Soundflower.kext */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Soundflower.kext;
+			remoteRef = 1E6BA1B80FBF6E7900266368 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1E6BA1BB0FBF6E7900266368 /* libSoundflowerFPU.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSoundflowerFPU.a;
+			remoteRef = 1E6BA1BA0FBF6E7900266368 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1176,10 +1354,10 @@
 				1E6B99380FBF3BC900266368 /* AppController.m in Sources */,
 				1E6B99C90FBF3F0A00266368 /* FMFlashGame.m in Sources */,
 				1E6B9A140FBF454400266368 /* NSArray+FMExtensions.m in Sources */,
-				1E6B9DF90FBF5D6700266368 /* AudioDevice.cpp in Sources */,
-				1E6B9DFB0FBF5D6700266368 /* AudioDeviceList.cpp in Sources */,
-				1E6B9DFD0FBF5D6700266368 /* AudioRingBuffer.cpp in Sources */,
-				1E6B9DFF0FBF5D6700266368 /* AudioThruEngine.cpp in Sources */,
+				1E6BA1860FBF6E7800266368 /* AudioDevice.cpp in Sources */,
+				1E6BA1870FBF6E7800266368 /* AudioDeviceList.cpp in Sources */,
+				1E6BA1880FBF6E7800266368 /* AudioRingBuffer.cpp in Sources */,
+				1E6BA1890FBF6E7800266368 /* AudioThruEngine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1210,22 +1388,6 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		1E6B9AB60FBF587800266368 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E6B9AB70FBF587800266368 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1E6B9AB80FBF587800266368 /* MainMenu.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E6B9AB90FBF587800266368 /* English */,
-			);
-			name = MainMenu.nib;
-			sourceTree = "<group>";
-		};
 		1E6B9F120FBF649500266368 /* BWToolkitLibrary.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1240,6 +1402,22 @@
 				1E6B9F150FBF649500266368 /* English */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E6BA1250FBF6E7800266368 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6BA1260FBF6E7800266368 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E6BA1270FBF6E7800266368 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6BA1280FBF6E7800266368 /* English */,
+			);
+			name = MainMenu.nib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

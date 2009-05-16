@@ -282,21 +282,17 @@
 								<string>1058C7A2FEA54F0111CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1E6BA0AA0FBF64E200266368</string>
-								<string>1E6BA0AB0FBF64E200266368</string>
-								<string>1E6BA0AC0FBF64E200266368</string>
-								<string>1E6BA0AD0FBF64E200266368</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>337</integer>
-									<integer>336</integer>
+									<integer>333</integer>
 									<integer>328</integer>
 									<integer>327</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 5071}, {248, 760}}</string>
+							<string>{{0, 4834}, {248, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -341,7 +337,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1E6BA0B10FBF64E200266368</string>
+										<string>1E6BA0BD0FBF6E6900266368</string>
 										<key>history</key>
 										<array>
 											<string>1E6B99CA0FBF400200266368</string>
@@ -647,14 +643,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1E6B99BD0FBF3E3C00266368</string>
+				<string>1E6BA0B70FBF684000266368</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>1E6B99BE0FBF3E3C00266368</string>
-				<string>1E6B99BF0FBF3E3C00266368</string>
-				<string>1E6B99C00FBF3E3C00266368</string>
-				<string>1E6B99C10FBF3E3C00266368</string>
-				<string>1E6B99270FBF3B4400266368</string>
+				<string>1E6BA0B80FBF684000266368</string>
+				<string>1E6BA0B90FBF684000266368</string>
+				<string>1E6BA0BA0FBF684000266368</string>
+				<string>1E6BA0BB0FBF684000266368</string>
+				<string>1E6BA0BC0FBF684000266368</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>

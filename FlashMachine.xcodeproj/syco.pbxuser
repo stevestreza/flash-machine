@@ -232,97 +232,6 @@
 		vrLen = 993;
 		vrLoc = 0;
 	};
-	1E6B9A8C0FBF587800266368 /* ChangeLog.txt */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 301}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 102}";
-		};
-	};
-	1E6B9AA70FBF587800266368 /* AppController.mm */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 15372}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{3981, 867}";
-		};
-	};
-	1E6B9AAB0FBF587800266368 /* AudioDevice.cpp */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 1400}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1577}";
-		};
-	};
-	1E6B9AAC0FBF587800266368 /* AudioDevice.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 910}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1577}";
-		};
-	};
-	1E6B9AB10FBF587800266368 /* AudioThruEngine.cpp */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 5600}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{2651, 429}";
-		};
-	};
-	1E6B9ABD0FBF587800266368 /* HelpWindowController.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 630}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1577}";
-		};
-	};
-	1E6B9ABF0FBF587800266368 /* main.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 728}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{401, 2314}";
-		};
-	};
-	1E6B9ACA0FBF587800266368 /* Soundflowerbed.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 6244}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 593}";
-		};
-	};
-	1E6B9AD80FBF587800266368 /* SoundflowerClip.cpp */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1212, 1146}}";
-			sepNavSelRange = "{914, 0}";
-			sepNavVisRange = "{384, 948}";
-		};
-	};
-	1E6B9AD90FBF587800266368 /* SoundflowerDevice.cpp */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 5174}}";
-			sepNavSelRange = "{6214, 10}";
-			sepNavVisRange = "{2780, 794}";
-		};
-	};
-	1E6B9ADA0FBF587800266368 /* SoundflowerDevice.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 1064}}";
-			sepNavSelRange = "{933, 0}";
-			sepNavVisRange = "{520, 840}";
-		};
-	};
-	1E6B9ADB0FBF587800266368 /* SoundflowerEngine.cpp */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 10024}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{1562, 583}";
-		};
-	};
-	1E6B9ADC0FBF587800266368 /* SoundflowerEngine.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 1274}}";
-			sepNavSelRange = "{858, 0}";
-			sepNavVisRange = "{590, 594}";
-		};
-	};
 	1E6B9C380FBF5B9200266368 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1E6B99370FBF3BC900266368 /* AppController.m */;
@@ -563,11 +472,6 @@
 		name = OSMessageNotification.h;
 		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/OSMessageNotification.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1109, 2240}}";
-			sepNavSelRange = "{2593, 74}";
-			sepNavVisRange = "{2252, 586}";
-		};
 	};
 	1E6B9E370FBF622C00266368 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -619,6 +523,20 @@
 		rType = 0;
 		vrLen = 522;
 		vrLoc = 0;
+	};
+	1E6BA1160FBF6E7800266368 /* AppController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 15456}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 384}";
+		};
+	};
+	1E6BA12C0FBF6E7800266368 /* HelpWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1109, 630}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1577}";
+		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -687,9 +605,9 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					20,
-					970,
+					907,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -727,8 +645,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 264200746;
-			PBXWorkspaceStateSaveDate = 264200746;
+			PBXPerProjectTemplateStateSaveDate = 264203882;
+			PBXWorkspaceStateSaveDate = 264203882;
 		};
 		perUserProjectItems = {
 			1E6B99CA0FBF400200266368 = 1E6B99CA0FBF400200266368 /* PBXTextBookmark */;
@@ -758,11 +676,11 @@
 			1E6B9DDC0FBF5D2C00266368 = 1E6B9DDC0FBF5D2C00266368 /* PBXTextBookmark */;
 			1E6B9DE50FBF5D2C00266368 = 1E6B9DE50FBF5D2C00266368 /* PBXTextBookmark */;
 			1E6B9E100FBF61D100266368 = 1E6B9E100FBF61D100266368 /* PBXTextBookmark */;
-			1E6B9E370FBF622C00266368 /* PBXTextBookmark */ = 1E6B9E370FBF622C00266368 /* PBXTextBookmark */;
-			1E6BA0AE0FBF64E200266368 /* PBXTextBookmark */ = 1E6BA0AE0FBF64E200266368 /* PBXTextBookmark */;
-			1E6BA0AF0FBF64E200266368 /* PBXBookmark */ = 1E6BA0AF0FBF64E200266368 /* PBXBookmark */;
-			1E6BA0B00FBF64E200266368 /* PBXTextBookmark */ = 1E6BA0B00FBF64E200266368 /* PBXTextBookmark */;
-			1E6BA0B10FBF64E200266368 /* PBXTextBookmark */ = 1E6BA0B10FBF64E200266368 /* PBXTextBookmark */;
+			1E6B9E370FBF622C00266368 = 1E6B9E370FBF622C00266368 /* PBXTextBookmark */;
+			1E6BA0AE0FBF64E200266368 = 1E6BA0AE0FBF64E200266368 /* PBXTextBookmark */;
+			1E6BA0AF0FBF64E200266368 = 1E6BA0AF0FBF64E200266368 /* PBXBookmark */;
+			1E6BA0B00FBF64E200266368 = 1E6BA0B00FBF64E200266368 /* PBXTextBookmark */;
+			1E6BA0B10FBF64E200266368 = 1E6BA0B10FBF64E200266368 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1E6B992D0FBF3B4400266368 /* Source Control */;
 		userBuildSettings = {
