@@ -2,6 +2,11 @@ About Flash Machine:
 
 Flash Machine is an application to store SWF files and bookmarks. It's meant to provide a better environment geared towards playing Flash games. Ideally it will support controlling audio, so audio could be muted or played through headphones.
 
+Dependencies:
+
+- BWToolkit (http://brandonwalkin.com/bwtoolkit/), used for some UI controls
+- Soundflower (http://www.cycling74.com/products/soundflower), used for controlling the audio
+
 Installing:
 
 To get started, git clone the repository to your Mac:
@@ -14,3 +19,7 @@ cd flash-machine;
 git submodule init && git submodule update;
 
 Then, build it with Xcode.
+
+Hacking:
+
+If you want to edit the NIB files, you need to install the ibplugin for the BWToolkit dependency. It can be built from the Xcode project in the Dependencies folder.
