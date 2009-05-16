@@ -1,0 +1,3 @@
+[submodule "Dependencies/BWToolkit"]
+	path = Dependencies/BWToolkit
+	url = git://github.com/sdegutis/bwtoolkit.git
