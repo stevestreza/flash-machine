@@ -1,0 +1,7 @@
+About Flash Machine:
+
+Flash Machine is an application to store SWF files and bookmarks. It's meant to provide a better environment geared towards playing Flash games. Ideally it will support controlling audio, so audio could be muted or played through headphones.
+
+Installing:
+
+git clone the repository and build with Xcode.
