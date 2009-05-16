@@ -4,4 +4,13 @@ Flash Machine is an application to store SWF files and bookmarks. It's meant to 
 
 Installing:
 
-git clone the repository and build with Xcode.
+To get started, git clone the repository to your Mac:
+
+git clone git@github.com:amazingsyco/flash-machine.git;
+
+Update the git submodules:
+
+cd flash-machine;
+git submodule init && git submodule update;
+
+Then, build it with Xcode.
