@@ -58,21 +58,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E6BA13A0FBF6E7800266368 /* Soundflowerbed.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 222FE3510EBB6D9900FD13FC /* Soundflowerbed.app */;
+			remoteGlobalIDString = 222FE3510EBB6D9900FD13FC;
 			remoteInfo = Soundflowerbed;
 		};
 		1E6BA1B80FBF6E7900266368 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E6BA1440FBF6E7800266368 /* Soundflower.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 54D0ADA60A5E329B006380BD /* Soundflower.kext */;
+			remoteGlobalIDString = 54D0ADA60A5E329B006380BD;
 			remoteInfo = SoundflowerDriver;
 		};
 		1E6BA1BA0FBF6E7900266368 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E6BA1440FBF6E7800266368 /* Soundflower.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 789FB3530D62DE4E00C0F5C7 /* libSoundflowerFPU.a */;
+			remoteGlobalIDString = 789FB3530D62DE4E00C0F5C7;
 			remoteInfo = SoundflowerFPU;
 		};
 /* End PBXContainerItemProxy section */

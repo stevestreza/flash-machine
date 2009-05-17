@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="461"/>
+			<integer value="493"/>
 			<integer value="57"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -1127,6 +1127,7 @@
 				<string key="NSWindowTitle">Window</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
+				<string key="NSWindowContentMaxSize">{3.40282e+38, 3.40282e+38}</string>
 				<object class="NSView" key="NSWindowView" id="595472592">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
@@ -1356,6 +1357,35 @@
 										<object class="BWAnchoredButtonBar" id="389323737">
 											<reference key="NSNextResponder" ref="324883871"/>
 											<int key="NSvFlags">290</int>
+											<object class="NSMutableArray" key="NSSubviews">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSSlider" id="1062978603">
+													<reference key="NSNextResponder" ref="389323737"/>
+													<int key="NSvFlags">289</int>
+													<string key="NSFrame">{{110, 0}, {96, 21}}</string>
+													<reference key="NSSuperview" ref="389323737"/>
+													<bool key="NSEnabled">YES</bool>
+													<object class="NSSliderCell" key="NSCell" id="805204213">
+														<int key="NSCellFlags">-2079981824</int>
+														<int key="NSCellFlags2">0</int>
+														<string key="NSContents"/>
+														<object class="NSFont" key="NSSupport">
+															<string key="NSName">Helvetica</string>
+															<double key="NSSize">1.200000e+01</double>
+															<int key="NSfFlags">16</int>
+														</object>
+														<reference key="NSControlView" ref="1062978603"/>
+														<double key="NSMaxValue">1.000000e+00</double>
+														<double key="NSMinValue">0.000000e+00</double>
+														<double key="NSValue">1.000000e+00</double>
+														<double key="NSAltIncValue">0.000000e+00</double>
+														<int key="NSNumberOfTickMarks">0</int>
+														<int key="NSTickMarkPosition">1</int>
+														<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
+														<bool key="NSVertical">NO</bool>
+													</object>
+												</object>
+											</object>
 											<string key="NSFrameSize">{219, 23}</string>
 											<reference key="NSSuperview" ref="324883871"/>
 											<bool key="BWABBIsResizable">NO</bool>
@@ -2006,6 +2036,30 @@
 						</object>
 					</object>
 					<int key="connectionID">492</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: volume</string>
+						<reference key="source" ref="1062978603"/>
+						<reference key="destination" ref="1014052108"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="1062978603"/>
+							<reference key="NSDestination" ref="1014052108"/>
+							<string key="NSLabel">value: volume</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">volume</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">498</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_volumeSlider</string>
+						<reference key="source" ref="1014052108"/>
+						<reference key="destination" ref="1062978603"/>
+					</object>
+					<int key="connectionID">501</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3005,7 +3059,25 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">493</int>
 						<reference key="object" ref="389323737"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="1062978603"/>
+						</object>
 						<reference key="parent" ref="324883871"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">494</int>
+						<reference key="object" ref="1062978603"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="805204213"/>
+						</object>
+						<reference key="parent" ref="389323737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">495</int>
+						<reference key="object" ref="805204213"/>
+						<reference key="parent" ref="1062978603"/>
 					</object>
 				</object>
 			</object>
@@ -3195,7 +3267,6 @@
 					<string>420.IBPluginDependency</string>
 					<string>450.IBPluginDependency</string>
 					<string>456.IBEditorWindowLastContentRect</string>
-					<string>456.IBPluginDependency</string>
 					<string>456.IBWindowTemplateEditedContentRect</string>
 					<string>456.NSWindowTemplate.visibleAtLaunch</string>
 					<string>457.IBPluginDependency</string>
@@ -3212,6 +3283,8 @@
 					<string>472.IBPluginDependency</string>
 					<string>474.IBPluginDependency</string>
 					<string>493.IBPluginDependency</string>
+					<string>494.IBPluginDependency</string>
+					<string>495.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.ImportedFromIB2</string>
 					<string>56.IBPluginDependency</string>
@@ -3359,7 +3432,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{207, 285}, {478, 20}}</string>
+					<string>{{131, 285}, {478, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>{74, 862}</string>
@@ -3432,7 +3505,6 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>{{21, 530}, {480, 270}}</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>{{21, 530}, {480, 270}}</string>
 					<boolean value="YES"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3450,10 +3522,12 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.brandonwalkin.BWToolkit</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{219, 102}, {245, 183}}</string>
+					<string>{{143, 102}, {245, 183}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>{{23, 794}, {245, 183}}</string>
@@ -3506,7 +3580,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">493</int>
+			<int key="maxID">501</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3519,11 +3593,13 @@
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>_flashGamesController</string>
+							<string>_volumeSlider</string>
 							<string>_webView</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>NSArrayController</string>
+							<string>NSSlider</string>
 							<string>WebView</string>
 						</object>
 					</object>
@@ -3532,10 +3608,59 @@
 						<string key="minorKey">Classes/AppController.h</string>
 					</object>
 				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BWAnchoredButtonBar</string>
+					<string key="superclassName">NSView</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">splitViewDelegate</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Dependencies/BWToolkit/BWAnchoredButtonBar.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">BWSplitView</string>
+					<string key="superclassName">NSSplitView</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">toggleCollapse:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">secondaryDelegate</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Dependencies/BWToolkit/BWSplitView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Dependencies/BWToolkit/NSView+BWAdditions.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">NSWindow</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Dependencies/BWToolkit/NSWindow+BWAdditions.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">NSWindow</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Dependencies/BWToolkit/NSWindow-NSTimeMachineSupport.h</string>
+					</object>
+				</object>
 			</object>
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.LastKnownRelativeProjectPath">../FlashMachine.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../../FlashMachine.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 	</data>
 </archive>

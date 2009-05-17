@@ -15,6 +15,8 @@
 @interface AppController : NSWindowController {
 	IBOutlet WebView *_webView;
 	IBOutlet NSArrayController *_flashGamesController;
+		
+	IBOutlet NSSlider *_volumeSlider;
 	
 	NSArray *_flashGames;
 }
@@ -25,5 +27,8 @@
 -(void)loadGamesFromDirectory:(NSString *)dir;
 
 -(void)selectGame:(FMFlashGame *)game;
+
+-(float)volume;
+-(void)setVolume:(float)involume;
 
 @end
